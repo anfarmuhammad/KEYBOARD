@@ -1,0 +1,96 @@
+body{
+   margin: 0;
+}
+.main{
+    height: 100vh;
+    max-width: 100vw;
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    width: 400px;
+    height: 450px;
+    box-shadow: 10px 10px 10px;
+    border: 2px solid darkorchid;
+    border-radius: 20px;
+   
+ 
+}
+.div img{
+    width: 400px;
+    height: 450px
+}    
+.div1{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div3{
+    width: 100%;
+    height: 25%;
+   color: white;
+    display: flex;
+    justify-content: center;
+}  
+.A{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.B{
+    width: 100%;
+    height: 20%;
+    /* background-color: brown; */
+    margin-top: -15px;
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+  
+  
+
+}
+.c{
+    color: white;
+}
+.c:hover{
+    color: darkorchid;
+}
+.C{
+    color: white;
+    margin-left:70px;
+}
+.C:hover{
+    color: darkorchid;
+}
+
+
+.D{
+    margin-left: 20px;
+}
+button{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: darkorchid;
+}
